@@ -1,0 +1,208 @@
+html {
+  font-family: "Roboto";
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* styling home */
+.home {
+  background-image: url('./assets/backgrounds/h_img.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans';
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 5%;
+}
+
+.home h1 {
+  padding: 2px;
+  margin: 5px;
+}
+
+.home p {
+  padding: 2px;
+}
+
+#logo {
+  margin-top: 12px;
+  margin-bottom: 100px;
+  width: 70px;
+  height: 70px;
+
+}
+
+#mouse {
+  padding-top: 22px;
+  margin-top: 10%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* styling about */
+.about {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/* styling services */
+.services {
+  background-image: url("./assets/backgrounds/s_image.jpg");
+  color: white;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans';
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* styling what we do */
+.what {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-family: 'Open Sans';
+}
+
+#development,
+#design,
+#product {
+  display: none;
+  overflow: hidden;
+}
+
+/* styling portfolio */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.portfolio1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col-md-3 img {
+  float: left;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.col-md-4:hover {
+  background-color: beige;
+  opacity: 0.7;
+}
+
+#show1,
+#show2,
+#show3,
+#show4,
+#show5,
+#show6,
+#show7,
+#show8 {
+  opacity: 0.8;
+  display: none;
+  font-family: 'Open Sans';
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 130px;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  color: black;
+  background-color: beige;
+}
+
+/* styling contact */
+.contact {
+  background-image: url('./assets/backgrounds/c_image.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Nunito Sans';
+  color: white;
+  align-content: center;
+}
+
+.contact h2 {
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#name,
+#email,
+#comment {
+  background: transparent;
+  font-family: 'Nunito Sans';
+  color: white;
+  font-size: 20px;
+}
+
+.form::-webkit-input-placeholder {
+  color: white;
+}
+
+#name {
+  width: 30%;
+  margin-left: 20%;
+  margin-right: 30px;
+}
+
+#email {
+  width: 30%;
+}
+
+#comment {
+  margin-left: 5%;
+  width: 70%;
+}
+
+button {
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  font-family: 'Nunito Sans';
+}
+
+/* styling footer */
+footer {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Nunito Sans';
+}
+
+footer p {
+  margin-top: 10px;
+}
